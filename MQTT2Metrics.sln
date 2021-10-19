@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQTT2Metrics", "src\MQTT2Metrics.csproj", "{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{11B08278-763F-4B78-BC42-37C6A96DB33F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{71274727-3CF1-4679-B46C-963BAC146BDB}"
+ProjectSection(SolutionItems) = preProject
+	Dockerfile = Dockerfile
+	README.md = README.md
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Debug|x64.Build.0 = Debug|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Debug|x86.Build.0 = Debug|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Release|x64.ActiveCfg = Release|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Release|x64.Build.0 = Release|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Release|x86.ActiveCfg = Release|Any CPU
+		{392B707D-F765-4E5D-91A1-4F0F8EEF7D8F}.Release|x86.Build.0 = Release|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Debug|x64.Build.0 = Debug|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Debug|x86.Build.0 = Debug|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Release|x64.ActiveCfg = Release|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Release|x64.Build.0 = Release|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Release|x86.ActiveCfg = Release|Any CPU
+		{11B08278-763F-4B78-BC42-37C6A96DB33F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
